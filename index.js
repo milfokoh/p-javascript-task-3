@@ -30,6 +30,7 @@ const longMoment = robbery.getAppropriateMoment(gangSchedule, 121, bankWorkingHo
 console.info(longMoment.exists());
 console.info(longMoment.format('Метим на %DD, старт в %HH:%MM!'));
 
+
 // Время существует
 const moment = robbery.getAppropriateMoment(gangSchedule, 90, bankWorkingHours);
 
